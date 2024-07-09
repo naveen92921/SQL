@@ -1,0 +1,2 @@
+create table Hostels(Hostel_Id int primary key,Hostel_Name varchar(20) unique,Location varchar(20) not null,Total_Rooms int check(Total_Rooms!=null),Warden_Name varchar(20));
+desc Hostels;
